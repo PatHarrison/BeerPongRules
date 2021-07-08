@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.7)  8 JUL 2021 10:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.7)  8 JUL 2021 12:42
 entering extended mode
 **./BPRules.tex
 (BPRules.tex
@@ -366,8 +366,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip62
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-1.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
+.
 
 ("C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -377,29 +377,29 @@ end-pdftex.def"
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count268
 \l__pdf_internal_box=\box49
-) (BPRules.aux)
+) (C:\Users\Patrick\OneDrive\BeerPongRules\Output\BPRules.aux)
 \openout1 = `BPRules.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 ("C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp
 -pdf.mkii"
@@ -456,7 +456,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 11.
+Package hyperref Info: Link coloring OFF on input line 9.
 
 ("C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref
 .sty"
@@ -472,10 +472,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count275
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
- (BPRules.out) (BPRules.out)
+LaTeX Info: Redefining \ref on input line 9.
+LaTeX Info: Redefining \pageref on input line 9.
+LaTeX Info: Redefining \nameref on input line 9.
+
+(C:\Users\Patrick\OneDrive\BeerPongRules\Output\BPRules.out)
+(C:\Users\Patrick\OneDrive\BeerPongRules\Output\BPRules.out)
 \@outlinefile=\write3
 \openout3 = `BPRules.out'.
 
@@ -483,9 +485,10 @@ LaTeX Info: Redefining \nameref on input line 11.
 <Figures//crestNA.png, id=111, 279.29344pt x 371.13657pt>
 File: Figures//crestNA.png Graphic file (type png)
 <use Figures//crestNA.png>
-Package pdftex.def Info: Figures//crestNA.png  used on input line 43.
+Package pdftex.def Info: Figures//crestNA.png  used on input line 37.
 (pdftex.def)             Requested size: 136.66008pt x 181.60367pt.
- [1
+
+[1
 
 {C:/Users/Patrick/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures
 //crestNA.png>])pdfTeX warning (ext4): destination with the same identifier (na
@@ -508,11 +511,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
-[2] (BPRules.toc)
+[2] (C:\Users\Patrick\OneDrive\BeerPongRules\Output\BPRules.toc)
 \tf@toc=\write4
 \openout4 = `BPRules.toc'.
 
- [3] (sec_setup.tex
+ [3]
+(sec_setup.tex
 Overfull \hbox (11.55855pt too wide) in paragraph at lines 7--7
 |\OT1/lmr/m/n/10.95 (i)
  []
@@ -1204,7 +1208,7 @@ Overfull \hbox (14.29631pt too wide) in paragraph at lines 30--30
 |\OT1/lmr/m/n/10.95 (v)
  []
 
-) [11] (BPRules.aux)
+) [11] (C:\Users\Patrick\OneDrive\BeerPongRules\Output\BPRules.aux)
 Package rerunfilecheck Info: File `BPRules.out' has not changed.
 (rerunfilecheck)             Checksum: 3474491C885209DD8BDB02480528252F;1693.
 
@@ -1214,7 +1218,7 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  7939 strings out of 479799
- 127095 string characters out of 2866837
+ 127368 string characters out of 2866837
  452981 words of memory out of 3000000
  24570 multiletter control sequences out of 15000+200000
  586052 words of font info for 59 fonts, out of 3000000 for 9000

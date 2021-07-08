@@ -1,20 +1,23 @@
 %----------------------------------------------------------------------------------------
 %   BEER PONG RULES: MAIN
 %----------------------------------------------------------------------------------------
+%\documentclass[rules] % Custom document class
 \documentclass[11pt, oneside,letterpaper]{article}
 
-\input{config.tex}
+\input{config.tex} % Remove to just use custom class
 
 \begin{document}
 
-% Title Page
+%----------------------------------------------------------------------------------------
+% Titles
+%----------------------------------------------------------------------------------------
 	\input{titlepage.tex}
 
 % blank and ToC
 	\newpage\thispagestyle{empty}
 	\emph{This page is intentionally no longer blank}
 
-% Signature Page
+% Signatures
 \newpage\thispagestyle{empty}
 \textbf{This Document has been read in it's entirety(ish) and approved by: }
 
@@ -36,9 +39,14 @@ Date: \rule{1.5in}{0.5pt}
 \noindent Signature: \hrulefill 
 
 
+% Table of Contents
 	\newpage\thispagestyle{empty}
 	\tableofcontents \thispagestyle{empty}
 	\newpage
+
+%----------------------------------------------------------------------------------------
+%	Introduction
+%----------------------------------------------------------------------------------------
 	\setcounter{page}{1} % Set counter to page 1
 	\begin{center}
 		\textbf{Preface} \\
@@ -52,22 +60,14 @@ Date: \rule{1.5in}{0.5pt}
         Here we present the House rules of 3727 for the ultimate beer pong game experience. 
         This text is organized into four sections: the setup, the gamplay, special shot types and then extra miscellaneous Rules.
 
+%----------------------------------------------------------------------------------------
 % Input body files
+%----------------------------------------------------------------------------------------
+
 \input{sec_setup.tex}		
 \input{sec_gameplay.tex}
 \input{sec_shottypes.tex}
 \input{sec_miscrules.tex}
-
-
-
-%\newpage
-%\begin{appendices}
-	%\glsaddall
-	%%\begin{multicols}{2}
-		%\printglossaries
-	%%\end{multicols}
-%\label{app:A}
-%\end{appendices}
 
 % The End
 \end{document}
