@@ -2,10 +2,31 @@
 
 @ECHO OFF
 
+IF %1.==. GOTO build
+IF %1%=="-h" IF %1%=="-help" GOTO help
+
+:: Help
+:help
+    ECHO Compiles BPRules.tex using PDFLaTeX.
+    ECHO.
+    ECHO make.bat [-h ^| -help]     Provides help information.
+    ECHO make.bat [-o ^| -open]     Open the PDF file after compilation.
+    ECHO.
+    GOTO end
+
 :: Build PDF
-echo -- Building PDF --
-pdflatex -output-directory=Output BPRules.tex
+:build
+    ECHO -- Building PDF --
+    pdflatex -quiet -output-directory=Output BPRules.tex
+
+IF %1.==. GOTO end
+IF %1=="-o" IF %1=="-open" GOTO openPDF
 
 :: Open PDF
-echo -- Opening PDF in Sumatra --
-C:\Users\Patrick\AppData\Local\SumatraPDF\SumatraPDF.exe Output\BPRules.pdf
+:openPDF
+    ECHO -- Opening PDF --
+    Output\BPRules.pdf
+    GOTO end
+
+:end
+

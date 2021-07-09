@@ -1,11 +1,9 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{rules}[Class for a specific rulebook style]
 
-
 \LoadClass[11pt, oneside, letterpaper]{article}
 
 \RequirePackage[english]{babel}
-\RequirePackage[utf8]{inputenc}
 \RequirePackage{lmodern}
 \RequirePackage{graphicx}
 \RequirePackage{titlesec}
@@ -19,7 +17,6 @@
 
 % Get gothic font for title
 \font\titleFont = ygoth at 50pt
-
 
 % Page Header and Footer
 \pagestyle{fancy}
