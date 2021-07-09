@@ -4,7 +4,6 @@
 
 %	Packages
 \usepackage[english]{babel}
-\usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{titlesec}
@@ -15,17 +14,19 @@
 \usepackage{enumitem}
 \usepackage{yfonts}
 \usepackage{titletoc}
+\usepackage{float}
 %\usepackage[automake=true,style=long,nonumberlist,numberedsection,nopostdot]{glossaries}
 %\usepackage[titletoc, title]{appendix}
 
 % Set a Title font to gothic
 \font\titleFont = ygoth at 50pt
 
-
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
 
 %	Page Header and Footer
 \pagestyle{fancy}
+\setlength{\headheight}{14pt}
+
 \fancyhf{}
 \rhead{\leftmark}
 \lhead{House Beer Pong Rules}
@@ -35,7 +36,6 @@
 %	Sectioning customization
 \renewcommand{\thesection}{\Roman{section}} 
 \renewcommand{\thesubsection}{\Roman{section}.\Roman{subsection}}
-\renewcommand{\thesubsubsection}{\Roman{section}.\Roman{subsection}.\roman{subsubsection}}
 
 \titleformat{\section}{\titlerule[2pt]\vspace{.8ex}\Large\bfseries}{\thesection.}{.5em}{\vspace{0pt}}
 \titleformat{\subsection}{\large\bfseries}{\Roman{subsection}.}{.5em}{\vspace{0pt}}
@@ -54,29 +54,26 @@
 %	referencing sections
 %\setcounter{secnumdepth}{3}
 
-%footnote numbering
- \renewcommand{\thefootnote}{\fnsymbol{footnote}}
- 
- % ToC depth
- \setcounter{tocdepth}{2} %	2 = Up to subsection layer
- 
- \titlecontents{section}
- [0em] % i
- {\smallskip}
- {\bfseries \thecontentslabel\enspace}%\thecontentslabel
- {\hspace*{-5.5em}}
- {\titlerule*[1pc]{.}\contentspage}%]
- 
- \titlecontents{subsection}
- [2.5em] %
- {\smallskip}
- {\thecontentslabel\enspace}%\thecontentslabel
- {\hspace*{7.12em}}
- {\titlerule*[1pc]{.}\contentspage}
- 
- 
- % Glossary 
+%   footnote numbering
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
-% \glossarystyle{treegroup}
+% ToC depth
+\setcounter{tocdepth}{2} %	2 = Up to subsection layer
+
+\titlecontents{section}
+[0em] % i
+{\smallskip}
+{\bfseries \thecontentslabel\enspace}%\thecontentslabel
+{\hspace*{-5.5em}}
+{\titlerule*[1pc]{.}\contentspage}%]
+
+\titlecontents{subsection}
+[2.5em] %
+{\smallskip}
+{\thecontentslabel\enspace}%\thecontentslabel
+{\hspace*{7.12em}}
+{\titlerule*[1pc]{.}\contentspage}
  
- \usepackage{hyperref}
+%   Glossary 
+% \glossarystyle{treegroup}
+\usepackage{hyperref}
