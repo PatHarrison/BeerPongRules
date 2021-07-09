@@ -15,15 +15,13 @@
 \usepackage{yfonts}
 \usepackage{titletoc}
 \usepackage{float}
-%\usepackage[automake=true,style=long,nonumberlist,numberedsection,nopostdot]{glossaries}
-%\usepackage[titletoc, title]{appendix}
 
 % Set a Title font to gothic
 \font\titleFont = ygoth at 50pt
 
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
 
-%	Page Header and Footer
+% Page Header and Footer
 \pagestyle{fancy}
 \setlength{\headheight}{14pt}
 
@@ -39,22 +37,17 @@
 
 \titleformat{\section}{\titlerule[2pt]\vspace{.8ex}\Large\bfseries}{\thesection.}{.5em}{\vspace{0pt}}
 \titleformat{\subsection}{\large\bfseries}{\Roman{subsection}.}{.5em}{\vspace{0pt}}
-\titleformat{\subsubsection}[drop]{}{(\roman{subsubsection})}{0.1em}{}
 
 \titlespacing*{\section}{-1cm}{0.2cm}{0cm}
 \titlespacing*{\subsection}{-0.5cm}{1em}{0.5em}
-\titlespacing*{\subsubsection}{0cm}{0.5\baselineskip}{6ex}
 
 % Graphics Path
 \graphicspath{{Figures/}}
 
-%	referencing figs inside sections
-%\renewcommand{\thefigure}{\thesubsection-\thefigure}
+% referencing sections
+\setcounter{secnumdepth}{3}
 
-%	referencing sections
-%\setcounter{secnumdepth}{3}
-
-%   footnote numbering
+% footnote numbering
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
 % ToC depth
@@ -74,6 +67,4 @@
 {\hspace*{7.12em}}
 {\titlerule*[1pc]{.}\contentspage}
  
-%   Glossary 
-% \glossarystyle{treegroup}
 \usepackage{hyperref}
