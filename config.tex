@@ -2,69 +2,80 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-%	Packages
-\usepackage[english]{babel}
-\usepackage{lmodern}
-\usepackage{graphicx}
-\usepackage{titlesec}
-\usepackage[left=3.04cm, right=2.54cm, bottom=2.54cm]{geometry}
-\usepackage{changepage} % indenting subsubsections
-\usepackage{framed}
-\usepackage{fancyhdr}
-\usepackage{enumitem}
-\usepackage{yfonts}
-\usepackage{titletoc}
-\usepackage{float}
+% Packages
+    \usepackage[english]{babel}
+    \usepackage{lmodern}
+    \usepackage{graphicx}
+    \usepackage{titlesec}
+    \usepackage[left=3.04cm, right=2.54cm, bottom=2.54cm]{geometry}
+    \usepackage{changepage} % indenting subsubsections
+    \usepackage{framed}
+    \usepackage{fancyhdr}
+    \usepackage{enumitem}
+    \usepackage{yfonts}
+    \usepackage{titletoc}
+    \usepackage{float} % float option [H] for better floats for figures
+    \usepackage{siunitx} % Consistent unit typesetting
+
+% Add US imperial units macro based on SI units
+    \let\DeclareUSUnit\DeclareSIUnit
+    \let\US\SI
+    % Declare Units
+        \DeclareUSUnit\ounce{oz}
+        \DeclareUSUnit\inch{in}
+        \DeclareUSUnit\feet{ft}
+        \DeclareUSUnit\USoz{\text{US fl oz}}
 
 % Set a Title font to gothic
-\font\titleFont = ygoth at 50pt
+    \font\titleFont = ygoth at 50pt
 
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+% Defines a new command for the horizontal lines, change thickness here
+    \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
 
 % Page Header and Footer
-\pagestyle{fancy}
-\setlength{\headheight}{14pt}
+    \pagestyle{fancy}
+    \setlength{\headheight}{14pt}
 
-\fancyhf{}
-\rhead{\leftmark}
-\lhead{House Beer Pong Rules}
-\rfoot{Page \thepage}
-\renewcommand{\headrulewidth}{0.5pt}
+    \fancyhf{}
+    \rhead{\leftmark}
+    \lhead{House Beer Pong Rules}
+    \rfoot{Page \thepage}
+    \renewcommand{\headrulewidth}{0.5pt}
 
-%	Sectioning customization
-\renewcommand{\thesection}{\Roman{section}} 
-\renewcommand{\thesubsection}{\Roman{section}.\Roman{subsection}}
+% Sectioning customization
+    \renewcommand{\thesection}{\Roman{section}} 
+    \renewcommand{\thesubsection}{\Roman{section}.\Roman{subsection}}
 
-\titleformat{\section}{\titlerule[2pt]\vspace{.8ex}\Large\bfseries}{\thesection.}{.5em}{\vspace{0pt}}
-\titleformat{\subsection}{\large\bfseries}{\Roman{subsection}.}{.5em}{\vspace{0pt}}
+    \titleformat{\section}{\titlerule[2pt]\vspace{.8ex}\Large\bfseries}{\thesection.}{.5em}{\vspace{0pt}}
+    \titleformat{\subsection}{\large\bfseries}{\Roman{subsection}.}{.5em}{\vspace{0pt}}
 
-\titlespacing*{\section}{-1cm}{0.2cm}{0cm}
-\titlespacing*{\subsection}{-0.5cm}{1em}{0.5em}
+    \titlespacing*{\section}{-1cm}{0.2cm}{0cm}
+    \titlespacing*{\subsection}{-0.5cm}{1em}{0.5em}
 
 % Graphics Path
-\graphicspath{{Figures/}}
+    \graphicspath{{Figures/}}
 
 % referencing sections
-\setcounter{secnumdepth}{3}
+    \setcounter{secnumdepth}{3}
 
 % footnote numbering
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+    \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
 % ToC depth
-\setcounter{tocdepth}{2} %	2 = Up to subsection layer
+    \setcounter{tocdepth}{2} %	2 = Up to subsection layer
 
-\titlecontents{section}
-[0em] % i
-{\smallskip}
-{\bfseries \thecontentslabel\enspace}%\thecontentslabel
-{\hspace*{-5.5em}}
-{\titlerule*[1pc]{.}\contentspage}%]
+    \titlecontents{section}
+    [0em] % i
+    {\smallskip}
+    {\bfseries \thecontentslabel\enspace}%\thecontentslabel
+    {\hspace*{-5.5em}}
+    {\titlerule*[1pc]{.}\contentspage}%]
 
-\titlecontents{subsection}
-[2.5em] %
-{\smallskip}
-{\thecontentslabel\enspace}%\thecontentslabel
-{\hspace*{7.12em}}
-{\titlerule*[1pc]{.}\contentspage}
- 
+    \titlecontents{subsection}
+    [2.5em] %
+    {\smallskip}
+    {\thecontentslabel\enspace}%\thecontentslabel
+    {\hspace*{7.12em}}
+    {\titlerule*[1pc]{.}\contentspage}
+
 \usepackage{hyperref}
