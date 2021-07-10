@@ -2,30 +2,42 @@
 
 @ECHO OFF
 
-IF "%~1"=="" GOTO :build
+@REM If no parameters, build without opening
+IF "%~1"=="" GOTO :default
 
-IF "%1"=="-h" GOTO :help
-IF "%1"=="-help" GOTO :help
-IF NOT "%~1"=="" GOTO :invalid
+@REM Build and open PDF
+IF "%~1"=="-o" GOTO :open
+IF "%~1"=="-open" GOTO :open
+
+@REM Display help text
+IF "%~1"=="-h" GOTO :help
+IF "%~1"=="-help" GOTO :help
+
+@REM Parameter is invalid
+GOTO :invalid
+
+:: Default
+:default
+    CALL :buildPDF
+    GOTO :EOF
+
+:: Open
+:open
+    CALL :buildPDF
+    CALL :openPDF
+    GOTO :EOF
 
 :: Build PDF
-:build
+:buildPDF
     ECHO -- Building PDF --
     pdflatex -quiet -output-directory=Output BPRules.tex
-    pdflatex -quiet -output-directory=Output BPRules.tex
-
-IF "%~1"=="" GOTO :EOF
-
-IF "%1"=="-o" GOTO :openPDF
-IF "%1"=="-open" GOTO :openPDF
-
-IF NOT "%~1"=="" GOTO :EOF
+    EXIT /B
 
 :: Open PDF
 :openPDF
     ECHO -- Opening PDF --
     Output\BPRules.pdf
-    GOTO :EOF
+    EXIT /B
 
 :: Help
 :help
@@ -39,6 +51,6 @@ IF NOT "%~1"=="" GOTO :EOF
 
 :: Invalid Parameter
 :invalid
-    ECHO Unknown option: %1
+    ECHO Unknown option: %~1
     ECHO Try "%~nx0 -h" for more information.
     GOTO :EOF
