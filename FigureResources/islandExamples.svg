@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -186,34 +186,34 @@
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
-       x="17.521105"
+       x="18.050272"
        y="79.391747"
        id="text3805"><tspan
          sodipodi:role="line"
          id="tspan3803"
-         x="17.521105"
+         x="18.050272"
          y="79.391747"
          style="stroke-width:0.264583">(A)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
-       x="74.731934"
+       x="75.261101"
        y="79.391747"
        id="text3813"><tspan
          sodipodi:role="line"
          id="tspan3811"
-         x="74.731934"
+         x="75.261101"
          y="79.391747"
          style="stroke-width:0.264583">(B)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
-       x="132.16867"
+       x="132.69783"
        y="79.391747"
        id="text3817"><tspan
          sodipodi:role="line"
          id="tspan3815"
-         x="132.16867"
+         x="132.69783"
          y="79.391747"
          style="stroke-width:0.264583">(C)</tspan></text>
   </g>

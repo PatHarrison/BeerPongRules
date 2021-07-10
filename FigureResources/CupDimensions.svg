@@ -14,7 +14,7 @@
    enable-background="new 0 0 1000 525"
    xml:space="preserve"
    id="svg320"
-   sodipodi:docname="5cf4148f9af3998f329e7037_Dimensions-Guide-Sports-Beer-Pong-Beirut-Beer-Pong-Cup-Dimensions.svg"
+   sodipodi:docname="CupDimensions.svg"
    inkscape:export-filename="C:\Users\Patrick\Desktop\BeerPongRules\Figures\dimensions.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -87,7 +87,8 @@
    inkscape:window-x="-6"
    inkscape:window-y="-6"
    inkscape:window-maximized="1"
-   inkscape:current-layer="svg320" />
+   inkscape:current-layer="svg320"
+   inkscape:document-rotation="0" />
 <svg:metadata
    id="metadata2">
 	<ns:sfw>
@@ -101,7 +102,7 @@
 	</ns:sfw>
 <rdf:RDF><cc:Work
      rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-       rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></svg:metadata>
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></svg:metadata>
 
 <svg:g
    id="POLYLINE_2208_"
@@ -138,24 +139,28 @@
    id="line51"
    style="stroke:#000000;stroke-opacity:1" />
 		</svg:g><svg:g
-   id="g1654"><svg:g
-     id="MTEXT_128_"
-     transform="translate(5.4801408,436.46409)">
+   id="MTEXT_128_"
+   transform="translate(-26.755408,436.46409)">
 			
 		<svg:text
    xml:space="preserve"
    style="font-size:18.6667px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif"
-   x="381.43063"
+   x="387.43063"
    y="47.136456"
    id="text1398"><svg:tspan
      sodipodi:role="line"
-     x="381.43063"
+     x="387.43063"
      y="47.136456"
      style="font-size:18.6667px;text-align:center;text-anchor:middle"
-     id="tspan1411">2 1/8&quot; | 54 mm</svg:tspan></svg:text></svg:g><svg:g
-     id="g1437"><svg:g
-       id="LINE_35_"
-       style="stroke:#000000;stroke-opacity:1">
+     id="tspan1411">2 1/8&quot; </svg:tspan><svg:tspan
+     sodipodi:role="line"
+     x="387.43063"
+     y="70.469833"
+     style="font-size:18.6667px;text-align:center;text-anchor:middle"
+     id="tspan993">54 mm</svg:tspan></svg:text></svg:g><svg:g
+   id="g1437"><svg:g
+     id="LINE_35_"
+     style="stroke:#000000;stroke-opacity:1">
 			
 				<svg:line
    fill="none"
@@ -171,8 +176,8 @@
    id="line90"
    style="stroke:#000000;stroke-opacity:1" />
 		</svg:g><svg:g
-       id="POLYLINE_2119_"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
+     id="POLYLINE_2119_"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
 			
 				<svg:polyline
    fill="none"
@@ -185,9 +190,9 @@
    id="polyline93"
    style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
 		</svg:g></svg:g><svg:g
-     id="g1431"><svg:g
-       id="POLYLINE_2120_"
-       style="stroke:#000000;stroke-opacity:1">
+   id="g1431"><svg:g
+     id="POLYLINE_2120_"
+     style="stroke:#000000;stroke-opacity:1">
 			
 				<svg:line
    fill="none"
@@ -203,8 +208,8 @@
    id="line87"
    style="stroke:#000000;stroke-opacity:1" />
 		</svg:g><svg:g
-       id="POLYLINE_2118_"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
+     id="POLYLINE_2118_"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
 			
 				<svg:polyline
    fill="none"
@@ -216,7 +221,7 @@
    points="     481.124,473.126 487.751,479.754 481.124,486.382    "
    id="polyline96"
    style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
-		</svg:g></svg:g></svg:g>
+		</svg:g></svg:g>
 <svg:g
    id="N-TEXT">
 </svg:g>
@@ -521,9 +526,8 @@
                 window.top.window.outerWidth = window.screen.width
             } catch (e) { }
         </script><svg:g
-   id="g1639"><svg:g
-     id="POLYLINE_2207_"
-     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
+   id="POLYLINE_2207_"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
 			
 				<svg:polyline
    fill="none"
@@ -536,8 +540,8 @@
    id="polyline54"
    style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
 		</svg:g><svg:g
-     id="POLYLINE_2206_"
-     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
+   id="POLYLINE_2206_"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
 			
 				<svg:polyline
    fill="none"
@@ -550,30 +554,10 @@
    id="polyline57"
    style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
 		</svg:g><svg:g
-     id="g1423"
-     transform="translate(-240.37621,260.58932)">
-			
-		<svg:text
-   xml:space="preserve"
-   style="font-size:18.6667px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif"
-   x="377.74741"
-   y="37.928352"
-   id="text1421"><svg:tspan
-     sodipodi:role="line"
-     x="377.74741"
-     y="37.928352"
-     style="font-size:18.6667px;text-align:center;text-anchor:middle"
-     id="tspan1419">1.57&quot;</svg:tspan><svg:tspan
-     sodipodi:role="line"
-     x="377.74741"
-     y="61.261684"
-     style="font-size:18.6667px;text-align:center;text-anchor:middle"
-     id="tspan1477">40mm</svg:tspan></svg:text></svg:g></svg:g><svg:g
-   id="g1614"><svg:g
-     id="g1449"
-     style="stroke:#000000;stroke-opacity:1"><svg:g
-       id="LINE_38_"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
+   id="g1449"
+   style="stroke:#000000;stroke-opacity:1"><svg:g
+     id="LINE_38_"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
 			
 				<svg:line
    fill="none"
@@ -589,8 +573,8 @@
    id="line221"
    style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
 		</svg:g><svg:g
-       id="POLYLINE_1220_"
-       style="stroke:#000000;stroke-opacity:1">
+     id="POLYLINE_1220_"
+     style="stroke:#000000;stroke-opacity:1">
 			
 				<svg:polyline
    fill="none"
@@ -603,10 +587,10 @@
    id="polyline224"
    style="stroke:#000000;stroke-opacity:1" />
 		</svg:g></svg:g><svg:g
-     id="g1443"
-     style="stroke:#000000;stroke-opacity:1"><svg:g
-       id="POLYLINE_1641_"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
+   id="g1443"
+   style="stroke:#000000;stroke-opacity:1"><svg:g
+     id="POLYLINE_1641_"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
 			
 				<svg:line
    fill="none"
@@ -622,8 +606,8 @@
    id="line218"
    style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
 		</svg:g><svg:g
-       id="POLYLINE_671_"
-       style="stroke:#000000;stroke-opacity:1">
+     id="POLYLINE_671_"
+     style="stroke:#000000;stroke-opacity:1">
 			
 				<svg:polyline
    fill="none"
@@ -636,8 +620,8 @@
    id="polyline227"
    style="stroke:#000000;stroke-opacity:1" />
 		</svg:g></svg:g><svg:g
-     id="g1491"
-     transform="translate(179.51329,208.10313)">
+   id="g1491"
+   transform="translate(137.51329,208.10313)">
 			
 		<svg:text
    xml:space="preserve"
@@ -652,14 +636,13 @@
      id="tspan1487">4 3/4&quot;</svg:tspan><svg:tspan
      sodipodi:role="line"
      x="377.74741"
-     y="61.261684"
+     y="61.261726"
      style="font-size:18.6667px;text-align:center;text-anchor:middle"
-     id="tspan1495">120.65mm</svg:tspan></svg:text></svg:g></svg:g><svg:g
-   id="g1629"><svg:g
-     id="g1461"
-     style="stroke:#000000;stroke-opacity:1"><svg:g
-       id="LINE_37_"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
+     id="tspan1495">120.65 mm</svg:tspan></svg:text></svg:g><svg:g
+   id="g1461"
+   style="stroke:#000000;stroke-opacity:1"><svg:g
+     id="LINE_37_"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
 			
 				<svg:line
    fill="none"
@@ -675,8 +658,8 @@
    id="line10"
    style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
 		</svg:g><svg:g
-       id="POLYLINE_2210_"
-       style="stroke:#000000;stroke-opacity:1">
+     id="POLYLINE_2210_"
+     style="stroke:#000000;stroke-opacity:1">
 			
 				<svg:polyline
    fill="none"
@@ -689,10 +672,10 @@
    id="polyline13"
    style="stroke:#000000;stroke-opacity:1" />
 		</svg:g></svg:g><svg:g
-     id="g1455"
-     style="stroke:#000000;stroke-opacity:1"><svg:g
-       id="POLYLINE_2211_"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
+   id="g1455"
+   style="stroke:#000000;stroke-opacity:1"><svg:g
+     id="POLYLINE_2211_"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
 			
 				<svg:line
    fill="none"
@@ -708,8 +691,8 @@
    id="line7"
    style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
 		</svg:g><svg:g
-       id="POLYLINE_2209_"
-       style="stroke:#000000;stroke-opacity:1">
+     id="POLYLINE_2209_"
+     style="stroke:#000000;stroke-opacity:1">
 			
 				<svg:polyline
    fill="none"
@@ -722,64 +705,83 @@
    id="polyline16"
    style="stroke:#000000;stroke-opacity:1" />
 		</svg:g></svg:g><svg:g
-     id="g1512"
-     transform="translate(6.4009511,5.5248614)">
+   id="g1512"
+   transform="translate(-32.159045,1.5248614)">
 			
 		<svg:text
    xml:space="preserve"
    style="font-size:18.6667px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif"
    x="381.43063"
-   y="47.136456"
+   y="41.136456"
    id="text1510"><svg:tspan
      sodipodi:role="line"
      x="381.43063"
-     y="47.136456"
+     y="41.136456"
      style="font-size:18.6667px;text-align:center;text-anchor:middle"
-     id="tspan1508">3 7/8&quot; | 98.4 mm</svg:tspan></svg:text></svg:g></svg:g><svg:g
+     id="tspan1508">3 7/8&quot; </svg:tspan><svg:tspan
+     sodipodi:role="line"
+     x="381.43063"
+     y="64.469833"
+     style="font-size:18.6667px;text-align:center;text-anchor:middle"
+     id="tspan981"> 98.4 mm</svg:tspan></svg:text></svg:g><svg:g
    id="g1518"
-   transform="translate(-207.22704,45.119705)">
+   transform="translate(-277.22704,45.119705)">
 			
 		<svg:text
    xml:space="preserve"
    style="font-size:18.6667px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif"
-   x="381.43063"
+   x="389.43063"
    y="47.136456"
    id="text1516"><svg:tspan
      sodipodi:role="line"
-     x="381.43063"
+     x="389.43063"
      y="47.136456"
      style="font-size:18.6667px;text-align:center;text-anchor:middle"
-     id="tspan1514">18US-fluid-oz</svg:tspan><svg:tspan
+     id="tspan1514">18 US fl oz</svg:tspan><svg:tspan
      sodipodi:role="line"
-     x="381.43063"
-     y="70.469788"
+     x="389.43063"
+     y="70.469833"
      style="font-size:18.6667px;text-align:center;text-anchor:middle"
-     id="tspan1520">Cups</svg:tspan><svg:tspan
-     sodipodi:role="line"
-     x="381.43063"
-     y="93.803123"
-     style="font-size:18.6667px;text-align:center;text-anchor:middle"
-     id="tspan1522">(Official)</svg:tspan></svg:text></svg:g><svg:text
+     id="tspan1522">Cups</svg:tspan></svg:text></svg:g><svg:text
    xml:space="preserve"
    style="font-size:18.6667px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif"
-   x="780.32965"
-   y="72.924461"
+   x="710.32965"
+   y="66.924461"
    id="text1526"
    inkscape:export-filename="C:\Users\Patrick\Desktop\BeerPongRules\Figures\dimensions.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"><svg:tspan
      sodipodi:role="line"
      id="tspan1524"
-     x="780.32965"
-     y="72.924461"
+     x="710.32965"
+     y="66.924461"
      style="font-size:18.6667px;text-align:center;text-anchor:middle">Ball to Cup:</svg:tspan><svg:tspan
      sodipodi:role="line"
-     x="780.32965"
-     y="96.257797"
+     x="710.32965"
+     y="90.257835"
      id="tspan1528"
      style="font-size:18.6667px;text-align:center;text-anchor:middle">16.5% of Opening </svg:tspan><svg:tspan
      sodipodi:role="line"
-     x="780.32965"
-     y="119.59113"
+     x="710.32965"
+     y="113.59121"
      style="font-size:18.6667px;text-align:center;text-anchor:middle"
-     id="tspan1530">by surface area</svg:tspan></svg:text></svg:svg>
+     id="tspan1530">by surface area</svg:tspan></svg:text><svg:g
+   id="g989"
+   transform="translate(-263.8651,258.58932)">
+			
+		<svg:text
+   xml:space="preserve"
+   style="font-size:18.6667px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif"
+   x="377.74741"
+   y="37.928352"
+   id="text987"><svg:tspan
+     sodipodi:role="line"
+     x="377.74741"
+     y="37.928352"
+     style="font-size:18.6667px;text-align:center;text-anchor:middle"
+     id="tspan983">1.57&quot;</svg:tspan><svg:tspan
+     sodipodi:role="line"
+     x="377.74741"
+     y="61.261726"
+     style="font-size:18.6667px;text-align:center;text-anchor:middle"
+     id="tspan985">40 mm</svg:tspan></svg:text></svg:g></svg:svg>

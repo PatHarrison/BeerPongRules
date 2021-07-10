@@ -1,0 +1,72 @@
+%% Creator: Inkscape 1.0.1 (3bc2e813f5, 2020-09-07), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'rerack.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{510.13573639bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.42793547)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{rerack.pdf}}%
+    \put(0.18536655,0.38211827){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Dick\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{rerack.pdf}}%
+    \put(0.48703665,0.38211827){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Triangle\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{rerack.pdf}}%
+    \put(0.80214536,0.391029){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Diamond\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{rerack.pdf}}%
+    \put(0.18710035,0.17376963){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Box\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{rerack.pdf}}%
+    \put(0.49694724,0.17376963){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}House\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{rerack.pdf}}%
+    \put(0.77507822,0.17376963){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Small Pyramid\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{rerack.pdf}}%
+    \put(0.01744489,0.18258434){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}To Opponents\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{rerack.pdf}}%
+  \end{picture}%
+\endgroup%
